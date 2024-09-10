@@ -1,0 +1,161 @@
+
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg, #022C43, #01A7C2);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 5%;
+}
+ 
+
+.title {
+
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #a0dfed;
+}
+label{
+    padding: 12px;
+     margin-bottom: 20px;
+}
+a{
+    color: #fff;
+    padding:2px;
+    margin-left: 55%;
+
+  
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+header .line {
+    width: 100px;
+    height: 2px;
+    background-color: #00B0D6;
+}
+.right-form {
+    clip-path: polygon(0 0, 100% 100%, 100% 0);
+    background: #0dbbb8;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    
+}
+.right-form img{
+   padding: 20px;
+   margin-left: 80px;
+   position: relative;
+   bottom: 50px;
+}
+header span {
+    width: 15px;
+    height: 15px;
+    background-color: #00B0D6;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #00818A;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+
+}
+
+.left-form {
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-form img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+
+.form-container {
+    flex: 2;
+    padding: 20px;box-shadow: #006975 0px 3px 8px;
+
+    /* background-color: #00697555; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-header .logo {
+    width: 60px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+ion-icon{
+    position: relative;
+    left: 60%;
+    top:55%;
+    color: #006975;
+}
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00B0D6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 5%;
+}
+
+.form-group button:hover {
+    background-color: #017A92;
+}
+
+.right-form {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-form .robot {
+    max-width: 100%;
+    height: auto;
+}
